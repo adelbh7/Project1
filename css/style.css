@@ -1,0 +1,27 @@
+
+
+  #nameinput{
+    display: flex;
+    color: white;
+    background-color: white;
+    padding: 0px;
+    flex-direction: row;
+    justify-content: center;
+    width: 250px;
+
+  }
+  
+   #navtop {
+    display: flex;
+    background-color: white;
+    padding: 8px 16px;
+    flex-direction: row;
+    justify-content: space-between;
+  } 
+
+  section {
+    height: 460px;
+    background-color: black;
+    color: white;
+    padding: 24px 72px;
+  }
