@@ -60,7 +60,7 @@ background-color: red;
         
     }
 
-    .alllettersboard {
+    .alllettersboard { 
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
