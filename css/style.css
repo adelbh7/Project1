@@ -1,27 +1,280 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+
+}
+
+header {
+  background-color: goldenrod;
+  color: black;
+  text-align: center;
+  font-size: xx-large;
+  padding: 20px;
+}
+
+#username {
+
+  font-size: x-large;
+  text-align: center;
+
+}
+
+.namebox {
+  padding: 10px 0 0 16px;
+}
+
+article {
+  padding: 10px;
+}
+
+.hangcontainer {
+  display: flex;
+  width: 600px;
+  height: 200px;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+}
+
+.hangbody {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  /* grid-template-columns: repeat(auto-fit, minmax(300px,1fr)); */
+  width: 300px;
+  height: 200px;
+  /* background: url(photos/pirate-yes.webp); */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 1cap;
+  max-width: 300px;
+  max-height: 200px;
+  background-position: center;
+
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+  color: goldenrod;
+  border: 2px solid goldenrod;
+  border-right: 2px;
+  border-left: 2px;
+  padding: 10px;
+}
+
+#hovereng,
+#hoverarb,
+#target {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+  align-items: left;
+  max-width: 600px;
+  width: 600px;
+}
+
+.lettersContainer {
+
+  padding-left: 10px;
+}
 
 
-  #nameinput{
-    display: flex;
-    color: white;
-    background-color: white;
-    padding: 0px;
-    flex-direction: row;
-    justify-content: center;
-    width: 250px;
+.wrongletters {
+  display: flex;
+  /* grid-auto-flow:column;
+  gap: 1rem; */
+  background-color: goldenrod;
+  padding: 1rem;
+  width: 500px;
+  /* flex-wrap: wrap; */
+  /* justify-content: space-between; */
+  border-color: black;
+  color: black;
+
+
+}
+
+.hintarea {
+  padding: 10px 0 0 16px;
+}
+
+.statusarea {
+  padding: 10px 0 0 16px;
+}
+
+.container {
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  background-color: goldenrod;
+  flex-wrap: wrap;
+  padding: 1rem;
+  width: 500px;
+  padding: 10px;
+  color: black;
+
+}
+
+.guess {
+  display: flex;
+  padding: 30px 30px;
+  padding: 1rem;
+  width: 500px;
+}
+
+.bodyimg {
+  width: 50px;
+  height: 50px;
+}
+
+#goldtrs {
+  width: 200px;
+  height: 200px;
+  display: flex;
+
+}
+
+
+.goldimage {
+
+  display: flex;
+  width: 570px;
+  height: 200px;
+  background-image: url("https://www.fantasyspringsresort.com/wp-content/uploads/2023/09/PiratesGold_GridBox_569x326.jpg ");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 1cap;
+  margin: 10px;
+
+}
+
+.spacelast {
+
+  width: 450px;
+  height: 400px;
+  text-align: center;
+}
+
+
+
+
+.alllettersboard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 4px;
+  justify-content: center;
+  padding: 10px;
+
+}
+
+
+
+@media (max-width: 596px) {
+
+
+  .goldimage {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 420px) {
+
+
+  .goldimage {
+    max-width: 100%;
 
   }
-  
-   #navtop {
-    display: flex;
-    background-color: white;
-    padding: 8px 16px;
-    flex-direction: row;
-    justify-content: space-between;
-  } 
+}
 
-  section {
-    height: 460px;
-    background-color: black;
-    color: white;
-    padding: 24px 72px;
-  } 
+@media (max-width: 596px) {
+
+
+  .spacelast {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 420px) {
+
+
+  .spacelast {
+    max-width: 100%;
+
+  }
+}
+
+@media (max-width: 596px) {
+
+
+  #target {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 420px) {
+
+
+  #target {
+    max-width: 100%;
+
+  }
+}
+
+@media (max-width: 596px) {
+
+  .guess {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 420px) {
+
+
+  .guess {
+    max-width: 100%;
+
+  }
+}
+
+@media (max-width: 596px) {
+
+  .wrongletters {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 420px) {
+
+
+  .wrongletters {
+    max-width: 100%;
+
+  }
+}
+
+@media (max-width: 596px) {
+
+  .container {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 420px) {
+
+  .container {
+    max-width: 100%;
+
+  }
+}
