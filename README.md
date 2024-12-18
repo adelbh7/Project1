@@ -15,7 +15,7 @@ You can guess the whole word if you are confident, but a wrong guess will cost y
 Play multiple rounds and see if you can save the pirate!
 
 ## Attributions
-**Icons and Assets:**
+**Font** sans-serif for better looking text
 
 ## Technologies Used
 HTML5
